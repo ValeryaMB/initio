@@ -7,6 +7,7 @@ import { Component1Component } from './components/component1/component1.componen
 import { Component2Component } from './components/component2/component2.component';
 import { Component3Component } from './components/component3/component3.component';
 import { Component4Component } from './components/component4/component4.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { Component4Component } from './components/component4/component4.componen
   imports: [
     BrowserModule,
     AppRoutingModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
