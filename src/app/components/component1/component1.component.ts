@@ -26,4 +26,8 @@ export class Component1Component implements OnInit{
     localStorage.setItem('Confirm', this.num4.toString())
     localStorage.setItem('Cell', this.num5.toString())
   }
+
+  navegacion(){
+    this.router.navigate(["pag2"])
+  }
 }
