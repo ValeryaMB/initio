@@ -24,6 +24,6 @@ export class Component2Component implements OnInit {
     this.Gmail = localStorage.getItem('Gmail')
     this.Password = localStorage.getItem('Passwor')
     this.Confirm = localStorage.getItem('Confirm')
-    
+    this.Cell = localStorage.getItem('cell')
   }
 }
