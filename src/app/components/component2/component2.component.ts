@@ -22,6 +22,8 @@ export class Component2Component implements OnInit {
   recuperar(){
     this.Usuario = localStorage.getItem('Usuario')
     this.Gmail = localStorage.getItem('Gmail')
-    this.Password = localStorage.getItem('Password')
+    this.Password = localStorage.getItem('Passwor')
+    this.Confirm = localStorage.getItem('Confirm')
+    
   }
 }
