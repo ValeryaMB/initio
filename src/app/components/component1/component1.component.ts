@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Route } from '@angular/router';
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-component1',
@@ -7,13 +7,13 @@ import { Route } from '@angular/router';
   styleUrls: ['./component1.component.css']
 })
 export class Component1Component implements OnInit{
-  n1:number;
-  n2:number;
-  n3:number;
-  n4:number;
-  n5:number;
+  n1:any;
+  n2:any;
+  n3:any;
+  n4:any;
+  n5:any;
 
-  constructor(private router:Route){}
+  constructor(private router:Router){}
 
   ngOnInit(): void {
     localStorage.clear()
@@ -28,6 +28,6 @@ export class Component1Component implements OnInit{
   }
 
   navegacion(){
-    this.router.navigate(["pag2"])
+    this.router.navigate(['pag2'])
   }
 }

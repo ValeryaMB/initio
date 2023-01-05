@@ -27,4 +27,7 @@ body{
     text-align: center;
 }
 
-
+.form_title{
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
