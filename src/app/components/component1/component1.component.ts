@@ -20,11 +20,11 @@ export class Component1Component implements OnInit{
   }
   
   almacenar(){
-    localStorage.setItem('Usuario', this.num1.toString())
-    localStorage.setItem('Gmail', this.num2.toString())
-    localStorage.setItem('Password', this.num3.toString())
-    localStorage.setItem('Confirm', this.num4.toString())
-    localStorage.setItem('Cell', this.num5.toString())
+    localStorage.setItem('Usuario', this.n1.toString())
+    localStorage.setItem('Gmail', this.n2.toString())
+    localStorage.setItem('Password', this.n3.toString())
+    localStorage.setItem('Confirm', this.n4.toString())
+    localStorage.setItem('Cell', this.n5.toString())
   }
 
   navegacion(){
