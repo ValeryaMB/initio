@@ -7,11 +7,11 @@ import { Route } from '@angular/router';
   styleUrls: ['./component1.component.css']
 })
 export class Component1Component implements OnInit{
-  num1:number;
-  num2:number;
-  num3:number;
-  num4:number;
-  num5:number;
+  n1:number;
+  n2:number;
+  n3:number;
+  n4:number;
+  n5:number;
 
   constructor(private router:Route){}
 
